@@ -44,13 +44,17 @@ export default function Plans({onShowSummary}) {
             <p className="fw-400 fs-16">Selecciona la opción que se ajuste más a tus necesidades.</p>
             <div className="forWho d-flex jc-center gap-40">
               <div className="container-box ta-left">
+                <div className="d-flex jc-end" style={{height: "24px"}}>
                   <input type="radio" name="forWho" onClick={() => toggleVisibility2('Para mí')} />
+                </div>
                   <img src={forMe} alt="Para mí" />
                   <h3 className="fw-900 fs-20">Para mí</h3>
                   <p className="fs-12 fw-400 lh-20">Cotiza tu seguro de salud y agrega familiares si así lo deseas.</p>
               </div>
               <div className="container-box ta-left">
+                <div className="d-flex jc-end" style={{height: "24px"}}>
                   <input type="radio" name="forWho" onClick={() => toggleVisibility2('Para alguien más')} />
+                </div>
                   <img src={forOther} alt="forOther" />
                   <h3 className="fw-900 fs-20">Para alguien más</h3>
                   <p className="fs-12 fw-400 lh-20">Realiza una cotización para uno de tus familiares o cualquier persona.</p>

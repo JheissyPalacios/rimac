@@ -49,19 +49,19 @@ export default function Login() {
             </div> */}
             <div className="background-images d-flex ai-center jc-center" >
               <div className="d-flex login-container jc-center ai-center">
-                <img className="only-desk" src={peopleBig} alt="peopleBig" />
+                <img className="only-desk w-350" src={peopleBig} alt="peopleBig" />
                 <div className="w-350">
                   <div className="d-flex container-title-mobile">
                       <div>
                           <span className="bg-gradient p-8 br-4 fw-700 fs-14">Seguro Salud Flexible</span> 
-                          <p className="fw-700 fs-32" style={{marginTop: "20px", marginBottom: "0"}}>Creado para ti y tu familia</p>
+                          <p className="fw-700 fs-26" style={{marginTop: "10px", marginBottom: "0"}}>Creado para ti y tu familia</p>
                       </div>
                       <img className="only-mob" src={peopleBit} alt="peopleBit" />
                   </div>
-                  <p className="fw-600 fs-14 mb-20">Tú eliges cuánto pagar. Ingresa tus datos, cotiza y recibe nuestra asesoría. 100% online.</p>
+                  <p className="fw-600 fs-14 mb-10">Tú eliges cuánto pagar. Ingresa tus datos, cotiza y recibe nuestra asesoría. 100% online.</p>
                   
                   <form onSubmit={handleSubmit(onSubmit)} className="w-350">
-                    <div className="d-flex input mb-20">
+                    <div className="d-flex input mb-10">
                       <Controller
                         name="document"
                         control={control}
@@ -101,7 +101,7 @@ export default function Login() {
                         />
                       </div>
                     </div>
-                    <div className="input mb-20">
+                    <div className="input mb-10">
                       <label className="c-5E6488 fw-400 fs-12" htmlFor="numberPhone">Celular</label>
                       <Controller
                         name="numberPhone"
@@ -127,7 +127,7 @@ export default function Login() {
                         )}
                       />
                     </div>
-                    <div className="d-flex mb-20">
+                    <div className="d-flex mb-10">
                       <input
                         name="user-feedback"
                         value="item spacing"
@@ -136,7 +136,7 @@ export default function Login() {
                       />
                       <label className="fw-400 fs-12">Acepto lo Política de Privacidad</label>
                     </div>
-                    <div className="d-flex mb-20">
+                    <div className="d-flex mb-10">
                       <input
                         name="user-feedback"
                         value="item spacing"
@@ -145,7 +145,7 @@ export default function Login() {
                       />
                       <label className="fw-400 fs-12">Acepto la Política Comunicaciones Comerciales</label>
                     </div>
-                    <p className="mb-20">
+                    <p className="mb-10">
                       <a href="#" className="fw-600 fs-12 c-03050F "> Aplican Términos y Condiciones.</a>
                     </p>
                     <button
