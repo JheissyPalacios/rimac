@@ -12,7 +12,7 @@ function App() {
       <Header/>
       <AppContext.Provider>
         <BrowserRouter>
-          <Routes>
+          <Routes basename="/rimac">
             <Route
               path="/"
               element={
