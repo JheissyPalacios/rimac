@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/rimac/static/css/main.77d2ae11.css",
-    "main.js": "/rimac/static/js/main.d1635de3.js",
-    "static/js/453.b1443c6d.chunk.js": "/rimac/static/js/453.b1443c6d.chunk.js",
-    "static/media/people-big.png": "/rimac/static/media/people-big.ad2f71517a9b9bd7a763.png",
-    "static/media/blur-asset-blue.png": "/rimac/static/media/blur-asset-blue.d9157caf9a39c721f9a6.png",
-    "static/media/blur-asset-pink.png": "/rimac/static/media/blur-asset-pink.7b025dd468f16612bc75.png",
-    "static/media/people-bit.png": "/rimac/static/media/people-bit.d57b3e6336e43a74b455.png",
-    "static/media/forOther.svg": "/rimac/static/media/forOther.554beafb02babf77fecf000a6846c717.svg",
-    "static/media/forMe.svg": "/rimac/static/media/forMe.0e23ab16e35d053e6b2e4ece7b4664f8.svg",
-    "static/media/plan-home.svg": "/rimac/static/media/plan-home.955823657d0fba8d55714bd2de442191.svg",
-    "static/media/plan-hospital.svg": "/rimac/static/media/plan-hospital.0b999fed68690d4e34ffc5bce601e78d.svg",
-    "static/media/phone.svg": "/rimac/static/media/phone.cc5774b93288d455308ace58cb530e9b.svg",
-    "static/media/people.svg": "/rimac/static/media/people.ea7ae3eb80537dfcf115ee868f2d56ea.svg",
-    "index.html": "/rimac/index.html",
-    "static/media/back.svg": "/rimac/static/media/back.753d18eb51bbc34abc9fa5cc139a3373.svg",
-    "main.77d2ae11.css.map": "/rimac/static/css/main.77d2ae11.css.map",
-    "main.d1635de3.js.map": "/rimac/static/js/main.d1635de3.js.map",
-    "453.b1443c6d.chunk.js.map": "/rimac/static/js/453.b1443c6d.chunk.js.map"
+    "main.css": "/static/css/main.398556af.css",
+    "main.js": "/static/js/main.30fc9496.js",
+    "static/js/453.b1443c6d.chunk.js": "/static/js/453.b1443c6d.chunk.js",
+    "static/media/people-big.png": "/static/media/people-big.ad2f71517a9b9bd7a763.png",
+    "static/media/blur-asset-blue.png": "/static/media/blur-asset-blue.d9157caf9a39c721f9a6.png",
+    "static/media/blur-asset-pink.png": "/static/media/blur-asset-pink.7b025dd468f16612bc75.png",
+    "static/media/people-bit.png": "/static/media/people-bit.d57b3e6336e43a74b455.png",
+    "static/media/forOther.svg": "/static/media/forOther.554beafb02babf77fecf000a6846c717.svg",
+    "static/media/forMe.svg": "/static/media/forMe.0e23ab16e35d053e6b2e4ece7b4664f8.svg",
+    "static/media/plan-home.svg": "/static/media/plan-home.955823657d0fba8d55714bd2de442191.svg",
+    "static/media/plan-hospital.svg": "/static/media/plan-hospital.0b999fed68690d4e34ffc5bce601e78d.svg",
+    "static/media/phone.svg": "/static/media/phone.cc5774b93288d455308ace58cb530e9b.svg",
+    "static/media/people.svg": "/static/media/people.ea7ae3eb80537dfcf115ee868f2d56ea.svg",
+    "index.html": "/index.html",
+    "static/media/back.svg": "/static/media/back.753d18eb51bbc34abc9fa5cc139a3373.svg",
+    "main.398556af.css.map": "/static/css/main.398556af.css.map",
+    "main.30fc9496.js.map": "/static/js/main.30fc9496.js.map",
+    "453.b1443c6d.chunk.js.map": "/static/js/453.b1443c6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77d2ae11.css",
-    "static/js/main.d1635de3.js"
+    "static/css/main.398556af.css",
+    "static/js/main.30fc9496.js"
   ]
 }
