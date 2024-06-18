@@ -1,38 +1,259 @@
-.App {
+body {
+  font-family: "BR Sonoma", sans-serif;
+  color: #03050F;
+}
+.header {
+  padding: 10px 0;
+}
+.page-wrapper {
+  width: calc(100% - 48px);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.page-wrapper .page-wrapper {
+  padding: 0;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-900 {
+  font-weight: 900;
+}
+.fs-10 {
+  font-size: 10px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-32 {
+  font-size: 32px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.p-8 {
+  padding: 8px;
+}
+.br-4 {
+  border-radius: 4px;
+}
+.w-350 {
+  width: 100%;
+}
+.c-poniter {
+  cursor: pointer;
+}
+.w-100vw {
+  width: 100vw ;
+}
+.w-100 {
+  width: 100% !important;
+}
+.p-absolute {
+  position: absolute;
+}
+.p-relative {
+  position: relative;
+}
+.only-desk {
+  display: none;
+}
+.only-mob {
+  display: flex;
+}
+.d-flex {
+  display: flex;
+}
+.fd-column {
+  flex-direction: column;
+}
+.ai-center {
+  align-items: center;
+}
+.ai-start {
+  align-items: start;
+}
+.jc-start {
+  justify-content: start;
+}
+.jc-center {
+  justify-content: center;
+}
+.jc-between {
+  justify-content: space-between;
+}
+.c-5E6488 {
+  color: #5E6488;
+}
+.c-03050F {
+  color: #03050F;
+}
+.c-7981B2 {
+  color: #7981B2;
+}
+.c-4F4FFF {
+  color: #4F4FFF;
+}
+.c-FFFFFF {
+  color: #FFFFFF;
+}
+.bg-gradient {
+  background: linear-gradient(86.01deg, #00F4E2 0%, #00FF7F 100%);
+}
+.bg-EDEFFC {
+  background-color: #EDEFFC;
+}
+.bg-FF1C44 {
+  background-color: #FF1C44 !important;
+  border: #FF1C44;
+}
+@media screen and (min-width: 750px) {
+  .page-wrapper {
+    width: calc(100% - 80px);
+    padding: 10px 40px;
+  }
+  .only-desk {
+    display: flex;
+  }
+  .only-mob {
+    display: none;
+  }
+  .w-350 {
+    width: 350px;
+  }
+}
+.gap-40 {
+  gap: 40px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.login {
+  height: auto;
+}
+.login-container {
+  gap: 100px;
+  padding: 0 20px;
+}
+select, input {
+  border: none;
+  background-color: transparent;
+  width: 90%;
+  padding: 8px;
+}
+select {
+  width: 180px;
+  border-right: 1px solid #5E6488;
+}
+.line {
+  border-bottom: 1px solid #D7DBF5;
+}
+.input {
+  border: 1px solid #5E6488;
+  border-radius: 8px;
+}
+input:focus, input:focus-visible, input:focus-within {
+  border: transparent !important;
+}
+input {
+  padding: 24px 11px 6px;
+  margin-top: -18px;
+  border-radius: 0px 8px 8px 0px;
+}
+input.numberPhone {
+  border-radius: 8px;
+  width: 94%;
+}
+select {
+  border-radius: 8px 0px 0px 8px;
+}
+label {
+  padding-left: 8px;
+}
+input[type="checkbox"] {
+  max-width: 16px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.lh-24 {
+  line-height: 24px;
+}
+.lh-20 {
+  line-height: 20px;
+}
+.ta-center {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ta-left {
+  text-align: left;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.tt-uppercase {
+  text-transform: uppercase;
+}
+.login-button {
+  background-color: #03050F;
+  padding: 20px 40px 20px 40px;
+  border-radius: 40px; 
+}
+.error-message {
+  font-size: 12px;
+  font-weight: 600;
+  color: darkred;
+}
+.background-images {
+  background-image: url('./assets/blur-asset-pink.png'), url('./assets/blur-asset-blue.png');
+  background-position: left center, right center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  width: 100%;
+  height: calc(100vh - 178px);
+}
+@media screen and (max-width: 750px) {
+  .login-button {
+    width: 100%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .login {
+    height: auto;
   }
-  to {
-    transform: rotate(360deg);
+  .gap-40 {
+    gap: 12px;
+  }
+  .fs-40 {
+    font-size: 26px;
+  }
+  .container-title-mobile {
+    padding: 24px 0;
+    border-bottom: 1px solid #D7DBF5;
+    margin-bottom: 30px;
+  }
+  .background-images {
+    height: auto !important;
+  }
+  .login-container {
+    padding: 20px;
   }
 }

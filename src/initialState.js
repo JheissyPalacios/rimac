@@ -1,0 +1,25 @@
+export default {
+  userModal: false,
+  userAddress: "",
+  modal: {
+    register: false,
+    login: false,
+    buy: false,
+    recharge: false,
+    level: false,
+  },
+  box: {},
+  cssModal: false,
+  design: 1,
+  balance: 0,
+  rlc: [],
+  alert: { status: "info", message: "", visible: false },
+  token: undefined,
+  account: {
+    id: undefined,
+    address: undefined,
+    balance: 0,
+    balance_range: 0,
+    plan_id: 0,
+  },
+};
