@@ -14,7 +14,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://JheissyPalacios.github.io/rimac",
+  "homepage": "https://JheissyPalacios.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -42,7 +42,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.1.1"
   }
 }

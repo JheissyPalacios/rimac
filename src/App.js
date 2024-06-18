@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header/>
         <BrowserRouter>
-          <Routes basename="/rimac">
+          <Routes>
             <Route
               path="/"
               element={
