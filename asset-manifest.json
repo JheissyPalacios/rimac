@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rimac/static/css/main.77d2ae11.css",
-    "main.js": "/rimac/static/js/main.48804ca9.js",
+    "main.css": "/rimac/static/css/main.0cf851e6.css",
+    "main.js": "/rimac/static/js/main.52b2003e.js",
     "static/js/453.b1443c6d.chunk.js": "/rimac/static/js/453.b1443c6d.chunk.js",
     "static/media/people-big.png": "/rimac/static/media/people-big.ad2f71517a9b9bd7a763.png",
     "static/media/blur-asset-blue.png": "/rimac/static/media/blur-asset-blue.d9157caf9a39c721f9a6.png",
@@ -15,12 +15,12 @@
     "static/media/people.svg": "/rimac/static/media/people.ea7ae3eb80537dfcf115ee868f2d56ea.svg",
     "index.html": "/rimac/index.html",
     "static/media/back.svg": "/rimac/static/media/back.753d18eb51bbc34abc9fa5cc139a3373.svg",
-    "main.77d2ae11.css.map": "/rimac/static/css/main.77d2ae11.css.map",
-    "main.48804ca9.js.map": "/rimac/static/js/main.48804ca9.js.map",
+    "main.0cf851e6.css.map": "/rimac/static/css/main.0cf851e6.css.map",
+    "main.52b2003e.js.map": "/rimac/static/js/main.52b2003e.js.map",
     "453.b1443c6d.chunk.js.map": "/rimac/static/js/453.b1443c6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77d2ae11.css",
-    "static/js/main.48804ca9.js"
+    "static/css/main.0cf851e6.css",
+    "static/js/main.52b2003e.js"
   ]
 }
